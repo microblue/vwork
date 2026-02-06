@@ -31,3 +31,11 @@ divisions:
     director: ops-manager-sys
     path: divisions/operations
     projects: []
+
+  quant-fund:
+    name: Quant Fund
+    name_cn: 量化基金部
+    description: Quantitative trading strategies and risk management
+    director: quant-researcher-alpha
+    path: divisions/quant-fund
+    projects: []

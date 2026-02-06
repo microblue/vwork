@@ -67,3 +67,35 @@ employees:
     path: divisions/engineering/employees/requirements-analyst-jade
     emoji: 📋
     status: active
+  quant-researcher-alpha:
+    name: Alpha
+    agent_id: vwork-quant-researcher-alpha
+    role: quant-researcher
+    division: quant-fund
+    path: divisions/quant-fund/employees/quant-researcher-alpha
+    emoji: 📊
+    status: active
+  quant-dev-sigma:
+    name: Sigma
+    agent_id: vwork-quant-dev-sigma
+    role: quant-developer
+    division: quant-fund
+    path: divisions/quant-fund/employees/quant-dev-sigma
+    emoji: 💻
+    status: active
+  data-engineer-delta:
+    name: Delta
+    agent_id: vwork-data-engineer-delta
+    role: data-engineer
+    division: quant-fund
+    path: divisions/quant-fund/employees/data-engineer-delta
+    emoji: 🗄️
+    status: active
+  risk-manager-gamma:
+    name: Gamma
+    agent_id: vwork-risk-manager-gamma
+    role: risk-manager
+    division: quant-fund
+    path: divisions/quant-fund/employees/risk-manager-gamma
+    emoji: ⚖️
+    status: active
