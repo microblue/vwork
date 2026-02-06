@@ -38,4 +38,12 @@ divisions:
     description: Quantitative trading strategies and risk management
     director: quant-researcher-alpha
     path: divisions/quant-fund
-    projects: []
+    projects:
+      - id: freequant
+        name: FreeQuant
+        type: quant-platform
+        source: /home/dz/FreeQuant
+      - id: freequanttrader
+        name: FreeQuantTrader
+        type: trading-system
+        source: /home/dz/FreeQuantTrader
