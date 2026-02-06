@@ -9,7 +9,7 @@
 
 | 任务 | 负责人 | 开始时间 | 状态 | 备注 |
 |------|--------|----------|------|------|
-| PromptBuilder 开发实现 | Arc ⚡ | 22:59 | ⏳ 进行中 | 根据需求文档实现 prompt_builder.py |
+| Nearby.ai 需求分析 | Jade 📋 | 23:07 | ⏳ 进行中 | 输出到 /home/dz/nearbyai/doc/ |
 
 ---
 
@@ -25,6 +25,7 @@
 
 | 任务 | 负责人 | 完成时间 | 结果 |
 |------|--------|----------|------|
+| PromptBuilder 开发实现 | Arc ⚡ | 23:02 | 911行代码，完整实现 |
 | PromptBuilder 需求文档 | Chen 🎬 | 22:59 | 完整需求文档，含API设计和验收标准 |
 | Creative-toolkit Review | Arc ⚡ | 14:37 | 修复8个问题，测试通过，已提交git |
 | build_subtitles.py 修复 | Arc ⚡ | 14:39 | 已更新字幕生成模块 |
@@ -41,7 +42,8 @@
 
 ## 📁 重要产出文件
 
-- PromptBuilder需求: `/home/dz/fuxi/doc/prompt_builder_spec.md` ✨新
+- PromptBuilder代码: `/home/dz/fuxi/pipeline/prompt_builder.py` ✨新
+- PromptBuilder需求: `/home/dz/fuxi/doc/prompt_builder_spec.md`
 - Creative-toolkit: `/home/dz/creative-toolkit` (已commit)
 - 字幕模块: `/home/dz/fuxi/pipeline/build_subtitles.py`
 - 伏羲状态: `/home/dz/fuxi/WORKFLOW_STATUS.md`
