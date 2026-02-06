@@ -1,0 +1,79 @@
+# Role templates
+roles:
+  director:
+    title: Division Director
+    title_cn: 事业部主管
+    level: senior
+    permissions:
+      - assign_tasks
+      - review_work
+      - manage_employees
+      - approve_releases
+    responsibilities:
+      - Oversee all division projects
+      - Assign and review tasks for team members
+      - Maintain division HEARTBEAT.md
+      - Report status to founder
+    model: anthropic/claude-opus-4-5-20251101
+
+  scriptwriter:
+    title: Scriptwriter
+    title_cn: 编剧
+    level: mid
+    permissions:
+      - edit_scripts
+      - create_content
+      - submit_for_review
+    responsibilities:
+      - Write and revise scripts
+      - Design narrative structure
+      - Craft prompts for content generation
+      - Maintain episode continuity
+    model: anthropic/claude-sonnet-4-20250514
+
+  vfx-artist:
+    title: VFX Artist
+    title_cn: 特效师
+    level: mid
+    permissions:
+      - run_comfyui
+      - generate_media
+      - submit_for_review
+    responsibilities:
+      - Design and run ComfyUI workflows
+      - Generate images and videos
+      - Manage GPU queue and priorities
+      - Quality-check generated assets
+    model: anthropic/claude-sonnet-4-20250514
+
+  lead-developer:
+    title: Lead Developer
+    title_cn: 首席开发
+    level: senior
+    permissions:
+      - write_code
+      - review_code
+      - merge_branches
+      - manage_dependencies
+    responsibilities:
+      - Architect and implement software
+      - Review pull requests
+      - Maintain code quality and tests
+      - Design APIs and integrations
+    model: anthropic/claude-opus-4-5-20251101
+
+  ops-manager:
+    title: Operations Manager
+    title_cn: 运维经理
+    level: senior
+    permissions:
+      - manage_processes
+      - monitor_gpu
+      - restart_services
+      - manage_cron
+    responsibilities:
+      - Monitor GPU utilization and ComfyUI queues
+      - Manage process lifecycle
+      - Handle system alerts
+      - Maintain uptime
+    model: anthropic/claude-sonnet-4-20250514

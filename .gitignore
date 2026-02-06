@@ -1,0 +1,15 @@
+# Python
+__pycache__/
+*.py[cod]
+.env
+
+# Pixi
+.pixi/
+
+# Clawdbot sessions (不要上传)
+sessions/
+
+# 临时文件
+*.log
+*.tmp
+.DS_Store

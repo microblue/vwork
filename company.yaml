@@ -1,0 +1,29 @@
+name: VWork
+name_cn: 虚拟工作室
+tagline: "AI-Powered Virtual Company"
+
+# Company identity
+founder: Dawson
+founded: "2026-02-02"
+
+# Agent runtime
+runtime:
+  platform: openclaw  # clawdbot
+  default_model: anthropic/claude-sonnet-4-20250514
+  premium_model: anthropic/claude-opus-4-5-20251101
+  max_concurrent_agents: 4
+
+# Communication
+channels:
+  primary: telegram
+  internal: filesystem  # memory/ files
+
+# Paths
+paths:
+  root: /home/dz/vwork
+  divisions: /home/dz/vwork/divisions
+  employees: /home/dz/vwork/employees
+  org: /home/dz/vwork/org
+  board: /home/dz/vwork/board
+  scripts: /home/dz/vwork/scripts
+  lib: /home/dz/vwork/lib

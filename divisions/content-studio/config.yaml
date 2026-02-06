@@ -1,0 +1,23 @@
+# Content Studio configuration
+division:
+  id: content-studio
+  name: Content Studio
+  name_cn: 内容创作部
+
+director: director-chen
+
+employees:
+  - director-chen
+  - scriptwriter-kai
+  - vfx-artist-nova
+
+projects:
+  fuxi:
+    source: /home/dz/fuxi
+    type: short-drama
+    status: active
+
+# ComfyUI integration
+comfyui:
+  url: http://127.0.0.1:8188
+  output_dir: /home/dz/ComfyUI/output

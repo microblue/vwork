@@ -1,0 +1,33 @@
+# Division registry
+divisions:
+  content-studio:
+    name: Content Studio
+    name_cn: 内容创作部
+    description: Video content creation - Fuxi short drama series
+    director: director-chen
+    path: divisions/content-studio
+    projects:
+      - id: fuxi
+        name: Fuxi (伏羲)
+        type: short-drama
+        source: /home/dz/fuxi
+
+  engineering:
+    name: Engineering
+    name_cn: 技术研发部
+    description: Tools, libraries, and platform development
+    director: lead-dev-arc
+    path: divisions/engineering
+    projects:
+      - id: creative-toolkit
+        name: Creative Toolkit
+        type: library
+        source: /home/dz/creative-toolkit
+
+  operations:
+    name: Operations
+    name_cn: 运维部
+    description: Infrastructure, monitoring, and process management
+    director: ops-manager-sys
+    path: divisions/operations
+    projects: []

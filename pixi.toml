@@ -1,0 +1,19 @@
+[workspace]
+name = "vwork"
+version = "0.1.0"
+description = "AI Virtual Company Management System"
+channels = ["conda-forge"]
+platforms = ["linux-64"]
+
+[dependencies]
+python = ">=3.12"
+pyyaml = ">=6.0"
+rich = ">=13.0"
+click = ">=8.0"
+
+[tasks]
+status = "python scripts/status.py"
+hire = "python scripts/hire.py"
+register-agents = "python scripts/register_agents.py"
+standup = "python scripts/standup.py"
+assign = "python scripts/assign.py"

@@ -1,0 +1,69 @@
+# VWork 员工名册
+# 更新: 2026-02-05
+
+employees:
+  director-chen:
+    name: Chen
+    name_cn: 陈
+    agent_id: vwork-director-chen
+    role: director
+    division: content-studio
+    path: divisions/content-studio/employees/director-chen
+    emoji: 🎬
+    status: active
+  scriptwriter-kai:
+    name: Kai
+    agent_id: vwork-scriptwriter-kai
+    role: scriptwriter
+    division: content-studio
+    path: divisions/content-studio/employees/scriptwriter-kai
+    emoji: ✍
+    status: active
+  vfx-artist-nova:
+    name: Nova
+    agent_id: vwork-vfx-artist-nova
+    role: vfx-artist
+    division: content-studio
+    path: divisions/content-studio/employees/vfx-artist-nova
+    emoji: ✨
+    status: active
+  lead-dev-arc:
+    name: Arc
+    agent_id: vwork-lead-dev-arc
+    role: lead-developer
+    division: engineering
+    path: divisions/engineering/employees/lead-dev-arc
+    emoji: ⚡
+    status: active
+  ops-manager-sys:
+    name: Sys
+    agent_id: vwork-ops-manager-sys
+    role: ops-manager
+    division: operations
+    path: divisions/operations/employees/ops-manager-sys
+    emoji: 🛠
+    status: active
+  fullstack-dev-max:
+    name: Max
+    agent_id: vwork-fullstack-dev-max
+    role: fullstack-developer
+    division: engineering
+    path: divisions/engineering/employees/fullstack-dev-max
+    emoji: 🌐
+    status: active
+  flutter-dev-rio:
+    name: Rio
+    agent_id: vwork-flutter-dev-rio
+    role: flutter-developer
+    division: engineering
+    path: divisions/engineering/employees/flutter-dev-rio
+    emoji: 📱
+    status: active
+  requirements-analyst-jade:
+    name: Jade
+    agent_id: vwork-requirements-analyst-jade
+    role: requirements-analyst
+    division: engineering
+    path: divisions/engineering/employees/requirements-analyst-jade
+    emoji: 📋
+    status: active

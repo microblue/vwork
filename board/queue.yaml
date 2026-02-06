@@ -1,0 +1,37 @@
+# VWork 任务队列
+# 统一管理任务依赖关系
+
+# 任务状态: pending(等待依赖) | ready(可执行) | running(执行中) | done(完成) | failed(失败)
+
+tasks:
+  # Chen 的 PromptBuilder 需求文档
+  - id: chen-promptbuilder-spec
+    name: PromptBuilder 需求文档
+    assignee: chen
+    status: running
+    started_at: "2026-02-05 14:39"
+    depends_on: []
+    output: /home/dz/fuxi/doc/prompt_builder_spec.md
+    description: 为 T2I/I2I 提示词生成器编写详细需求文档
+
+  # Arc 的 PromptBuilder 开发（依赖 Chen 的需求文档）
+  - id: arc-promptbuilder-dev
+    name: PromptBuilder 开发实现
+    assignee: arc
+    status: pending
+    depends_on: 
+      - chen-promptbuilder-spec
+    output: /home/dz/fuxi/pipeline/prompt_builder.py
+    description: 根据需求文档实现 PromptBuilder 模块
+
+# 员工当前任务
+current:
+  chen: chen-promptbuilder-spec
+  kai: null
+  nova: null
+  arc: null  # 等待 chen-promptbuilder-spec 完成
+  sys: null
+
+# 更新记录
+last_updated: "2026-02-05 16:57"
+updated_by: xiaomei
